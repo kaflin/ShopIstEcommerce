@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShopIst Project" parallel="false">
+    <parameter name="baseURL" value="https://shopist.io"/>
+      <parameter name="browser" value="chrome">
+
+        <test name="ShopIst Automation">
+            <packages>
+                <package name="testCases.eCommerce.shoppingCartTest"/>
+                <package name="testCases.eCommerce.checkOut"/>
+                <package name="testCases.eCommerce.userAccountTest"/>
+            </packages>
+        </test>
+     </parameter>
+</suite>

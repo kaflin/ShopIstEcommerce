@@ -1,0 +1,42 @@
+2024-02-25 07:46:35,261 - base.BaseClass -INFO - Initiate browser..
+2024-02-25 07:46:35,267 - base.BaseClass -INFO - Launching Google chrome browser..
+2024-02-25 07:46:35,267 - base.BaseClass -INFO - Opening Couch Cache Project
+2024-02-25 07:46:43,222 - base.BaseClass -INFO - Clicking to Shop now Button
+2024-02-25 07:46:44,573 - base.BaseClass -INFO - Clicking On In Stock Product
+2024-02-25 07:46:46,058 - base.BaseClass -INFO - Successfully Added To Cart
+2024-02-25 07:46:46,159 - base.BaseClass -INFO - 1 Quantity is already added to cart
+2024-02-25 07:46:46,160 - base.BaseClass -INFO - Updating the Cart Quantity
+2024-02-25 07:46:46,259 - base.BaseClass -INFO - 2 is Updated Quantity Added to Cart
+2024-02-25 07:46:46,266 - base.BaseClass -INFO - Clicking On Cart
+2024-02-25 07:46:47,486 - base.BaseClass -INFO - Clicking On Remove Button Of Product
+2024-02-25 07:46:47,669 - base.BaseClass -INFO - Successfully removed
+2024-02-25 07:46:47,674 - base.BaseClass -INFO - Navigating to HomePage
+2024-02-25 07:46:48,079 - base.BaseClass -INFO - Clicking On In Stock Product
+2024-02-25 07:46:48,246 - base.BaseClass -INFO - Clicking On Add To Cart Button
+2024-02-25 07:46:48,338 - base.BaseClass -INFO - Clicking On Cart Quantity Text
+2024-02-25 07:46:48,622 - base.BaseClass -INFO - Validating Total Price after Addition of Product
+2024-02-25 07:46:48,646 - base.BaseClass -INFO - Validating Total Price after Addition of Product Passed
+2024-02-25 07:46:48,646 - base.BaseClass -INFO - Updating Quantity Of Product
+2024-02-25 07:46:48,811 - base.BaseClass -INFO - Validating Total Price after Updating Quantity of Product
+2024-02-25 07:46:48,838 - base.BaseClass -INFO - Validating Total Price after Updating Quantity of Product Passed
+2024-02-25 07:46:48,838 - base.BaseClass -INFO - Removing Quantity Of Product
+2024-02-25 07:46:49,003 - base.BaseClass -INFO - Validating Total Price after Removing Quantity of Product
+2024-02-25 07:46:49,026 - base.BaseClass -INFO - Validating Total Price after Removing Quantity of Product Passed
+2024-02-25 07:46:49,032 - base.BaseClass -INFO - Initiate browser..
+2024-02-25 07:46:49,032 - base.BaseClass -INFO - Launching Google chrome browser..
+2024-02-25 07:46:49,033 - base.BaseClass -INFO - Opening Couch Cache Project
+2024-02-25 07:47:07,045 - base.BaseClass -INFO - Initiate browser..
+2024-02-25 07:47:07,046 - base.BaseClass -INFO - Launching Google chrome browser..
+2024-02-25 07:47:07,046 - base.BaseClass -INFO - Opening Couch Cache Project
+2024-02-25 07:47:12,340 - base.BaseClass -INFO - Clicking On User Profile Tab
+2024-02-25 07:47:13,553 - base.BaseClass -INFO - Clicking On Edit Profile Button
+2024-02-25 07:47:13,717 - base.BaseClass -INFO - Clicking On Upload Photo Button
+2024-02-25 07:47:14,154 - base.BaseClass -INFO - Filling Updated First Name
+2024-02-25 07:47:14,516 - base.BaseClass -INFO - Filling Updated last Name
+2024-02-25 07:47:14,649 - base.BaseClass -INFO - Filling Updated Address 1
+2024-02-25 07:47:14,899 - base.BaseClass -INFO - Filling Updated Address 2
+2024-02-25 07:47:15,117 - base.BaseClass -INFO - Filling Updated City
+2024-02-25 07:47:15,281 - base.BaseClass -INFO - Filling Updated ZipCode
+2024-02-25 07:47:15,407 - base.BaseClass -INFO - Filling Updated PhoneNumber
+2024-02-25 07:47:15,581 - base.BaseClass -INFO - Clicking On Save Profile Button
+2024-02-25 07:47:15,997 - base.BaseClass -INFO - Clean up activity: Closed all browser instances..

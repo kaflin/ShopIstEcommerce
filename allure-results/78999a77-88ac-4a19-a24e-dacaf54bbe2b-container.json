@@ -1,0 +1,1 @@
+{"uuid":"78999a77-88ac-4a19-a24e-dacaf54bbe2b","name":"ShopIst Project","children":["9851e24e-d396-4b3f-a9e8-8c2a142ae30c"],"befores":[{"name":"deletePreviousLogAndAllureResult","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1708826495107,"stop":1708826495123}],"afters":[],"start":1708826495061,"stop":1708826536013}

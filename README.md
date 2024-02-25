@@ -36,6 +36,8 @@ Page Object Model:
 
 For Doing Action on page
 
+The screenshot of allure Report has been added to Allure Report ScreenShot Folder
+
 Test:
 
 Writing Test,For what to do in Page

@@ -253,10 +253,6 @@ public class BaseClass {
         }
     }
 
-    public static int getMonthEnum(String month) {
-        String[] monthEnum = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
-        return ArrayUtils.indexOf(monthEnum, month) + 1;
-    }
     public void assertElementDisplayedUsingXpath(String selector) {
         boolean isDisplayed = false;
         try {

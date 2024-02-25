@@ -70,6 +70,9 @@ public class BaseClass {
     public String addOperator="(//div[@class='operator']/div)[2]";
     public String subOperator="(//div[@class='operator']/div)[1]";
     public String profileTab="(//a[contains(@class,'profile')])";
+    int maxRetries = 20;
+    int retryCount = 0;
+    boolean isSuccessful = false;
 
     private void setDriver(String browserType, String baseURL) {
         switch (browserType) {
@@ -96,7 +99,21 @@ public class BaseClass {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 //        driver.manage().window().setSize(new Dimension(1814, 974));
-        driver.navigate().to(baseURL);
+        while (retryCount < maxRetries) {
+            try {
+                driver.navigate().to(baseURL);
+                driver.findElement(By.xpath("//div[@class='brand-large']"));
+                System.out.println("tried");
+                isSuccessful = true;
+                break;
+            } catch (Exception e) {
+                // Log the exception or take other actions
+                e.printStackTrace();
+                // Increment the retry count
+                System.out.println(retryCount++);
+                retryCount++;
+            }
+        }
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         return driver;
     }
@@ -110,8 +127,19 @@ public class BaseClass {
         driver = new EdgeDriver(options);
         driver.manage().window().maximize();
 //        driver.manage().window().setSize(new Dimension(1814, 974));
-        driver.navigate().to(baseURL);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        while (retryCount < maxRetries) {
+            try {
+                driver.navigate().to(baseURL);
+                driver.findElement(By.xpath("//div[@class='brand-large']"));
+                isSuccessful = true;
+                break;
+            } catch (Exception e) {
+                // Log the exception or take other actions
+                e.printStackTrace();
+                // Increment the retry count
+                retryCount++;
+            }
+        }        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         return driver;
     }
 
@@ -121,8 +149,19 @@ public class BaseClass {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.navigate().to(baseURL);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        while (retryCount < maxRetries) {
+            try {
+                driver.navigate().to(baseURL);
+                driver.findElement(By.xpath("//div[@class='brand-large']"));
+                isSuccessful = true;
+                break;
+            } catch (Exception e) {
+                // Log the exception or take other actions
+                e.printStackTrace();
+                // Increment the retry count
+                retryCount++;
+            }
+        }        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         return driver;
     }
 
@@ -132,8 +171,19 @@ public class BaseClass {
         WebDriverManager.iedriver().setup();
         driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
-        driver.navigate().to(baseURL);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        while (retryCount < maxRetries) {
+            try {
+                driver.navigate().to(baseURL);
+                driver.findElement(By.xpath("//div[@class='brand-large']"));
+                isSuccessful = true;
+                break;
+            } catch (Exception e) {
+                // Log the exception or take other actions
+                e.printStackTrace();
+                // Increment the retry count
+                retryCount++;
+            }
+        }        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         return driver;
     }
 

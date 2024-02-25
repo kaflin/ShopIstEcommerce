@@ -40,3 +40,5 @@ Test:
 
 Writing Test,For what to do in Page
 
+Screen shot of allure report has been added to Allure Report Screenshot folder
+
